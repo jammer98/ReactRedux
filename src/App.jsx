@@ -9,12 +9,13 @@ function App() {
   
 
   return (
-    <>
-     <h1 className='bg-red-400'>this is redux toolkit </h1>
-
-     <Addtodo/>
-     <Todos/>
-    </>
+    <div className='bg-red-200 h-screen text-center '>
+      <div className='p-4 flex flex-warp justify-center items-center'>
+        <Addtodo/>
+      </div>
+      <Todos/>
+    
+    </div>
   )
 }
 
