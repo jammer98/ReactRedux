@@ -7,7 +7,7 @@ import { store } from './App/Store.js'
 
 createRoot(document.getElementById('root')).render(
   <Provider store={store}>
-   {/* this store is the values when using context api inplace of vlaues it is store */}
+   { /* this store is the values when using context api inplace of vlaues it is store */}
     <App />
   </Provider>,
 )

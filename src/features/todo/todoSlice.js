@@ -44,4 +44,4 @@ export const {addtodo,removetodo,updatetodo} = todoSlice.actions
 
 export default todoSlice.reducer
 
-
+//  updatetodo function is left for the function and the button and the implementaion
