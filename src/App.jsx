@@ -9,7 +9,7 @@ function App() {
   
 
   return (
-    <div className='bg-red-200 h-screen text-center '>
+    <div className='bg-sky-200 h-screen text-center mx-auto  '>
       <div className='p-4 flex flex-warp justify-center items-center'>
         <Addtodo/>
       </div>

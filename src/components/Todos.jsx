@@ -40,7 +40,7 @@ function Todos(){
     // )
      return (
     <>
-    <ul className="list-none">
+    <ul className="list-none " >
         {todos.map((todo) => (
           <li
             className="mt-4 w-auto flex justify-between items-center bg-zinc-800 px-4 py-2 rounded"
